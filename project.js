@@ -27,7 +27,7 @@ function validateEmail(myInput )
 {
     var regex = new RegExp('[a-z0-9]+@[a-z]+\.[a-z]{2,3}');
  if (myInput.value.match(regex)){
-    alert("hhh");
+    
  }
  
  else
